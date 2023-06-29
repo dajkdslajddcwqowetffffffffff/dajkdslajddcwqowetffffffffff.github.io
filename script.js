@@ -37,5 +37,8 @@ document.addEventListener('keydown', (event) => {
     }
   });
   
+
+document.getElementById('nextButton').addEventListener('click', nextImage);
+document.getElementById('previousButton').addEventListener('click', previousImage);
 // Initially display the first image
 updateImage();
